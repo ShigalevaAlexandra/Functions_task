@@ -1,4 +1,4 @@
-fun zadacha3() {
+fun main() {
     val alphabet = "абвгдежзиклмнопрстуфхцчшщъыьэюя"
     fun generateCombinations(): List<Pair<Char, Char>> {
         val combinations = mutableListOf<Pair<Char, Char>>()
